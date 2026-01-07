@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <title>Porsche 718 Series</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+
+  body{
+    background:#000;
+    color:#e5d4a1; /* 香檳金 */
+    padding-top:70px;
+  }
+
+  /* ───── 黑金導航列 ───── */
+
+  .navbar{
+    background:#0b0b0b !important;
+    border-bottom:1px solid #c9a441;
+  }
+
+  .navbar a{
+    color:#e8d7a6 !important;
+    font-weight:600;
+    letter-spacing:1px;
+  }
+
+  .navbar a:hover{
+    color:#ffda7a !important;
+  }
+
+  /* ───── 視差圖片滿版區塊 ───── */
+
+  .parallax{
+    position:relative;
+    width:100%;
+    height:90vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  /* ───── 標題淡入動畫 ───── */
+
+  .fade-title{
+    opacity:0;
+    transform:translateY(40px);
+    transition:.8s ease-out;
+  }
+
+  .fade-title.show{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+  .title-box{
+    text-align:center;
+    background:rgba(0,0,0,.6);
+    padding:20px 40px;
+    border:1px solid #d4b25c;
+    border-radius:14px;
+  }
+
+  .title-box h1{
+    font-weight:800;
+    letter-spacing:2px;
+    color:#ffda72;
+  }
+
+  /* ───── 內文區塊 ───── */
+
+  section{
+    padding:60px 0;
+  }
+
+  .section-content{
+    max-width:960px;
+    margin:auto;
+  }
+
+  h2{
+    color:#ffda72;
+    font-weight:700;
+    margin-bottom:10px;
+  }
+
+  hr{
+    border-top:1px solid #c9a441;
+  }
+
+  textarea{
+    background:#111;
+    color:#fff;
+    border:1px solid #c9a441;
+  }
+
+  button{
+    background:#c9a441;
+    border:none;
+  }
+
+  button:hover{
+    background:#ffde7f;
+    color:#000;
+  }
+
+  </style>
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+  <ul class="navbar-nav">
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown">718</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#s11">718 Cayman</a>
+        <a class="dropdown-item" href="#s12">718 Boxster</a>
+        <a class="dropdown-item" href="#s13">718 Spyder RS</a>
+        <a class="dropdown-item" href="#s14">718 Cayman GTS RS</a>
+      </div>
+    </li>
+
+    <li class="nav-item"><a class="nav-link" href="#brand">品牌介紹</a></li>
+    <li class="nav-item"><a class="nav-link" href="#service">服務</a></li>
+    <li class="nav-item"><a class="nav-link" href="#dealer">尋找經銷商</a></li>
+    <li class="nav-item"><a class="nav-link" href="#feedback">建議</a></li>
+  </ul>
+</nav>
+
+
+
+<!-- ========== 718 Cayman 視差區 ========== -->
+<div class="parallax" style="background-image:url('image/01.png')" id="s11">
+  <div class="title-box fade-title">
+    <h1>718 Cayman</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+    <p>
+      保時捷718 Cayman是一款中置引擎後輪驅動的雙座跑車，以其靈活操控和強勁性能著稱，提供四缸渦輪（2.0/2.5升）和六缸自然進氣
+    （4.0升）多種動力選擇，搭配七速PDK 雙離合器或六速手排，標配或選配有PASM主動式懸載調整系統、PSM車身穩定系統等，並有GT4 RS
+    等高性能版本，提供極致的駕馭樂趣與賽道表現。 
+    </p>
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== 718 Boxster ========== -->
+<div class="parallax" style="background-image:url('image/02.png')" id="s12">
+  <div class="title-box fade-title">
+    <h1>718 Boxster</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+    <p>
+      Porsche 718 Boxster 是一款中置引擎的雙座敞篷跑車，以其靈活的操控、純粹的駕駛樂趣和經典的軟頂設計聞名，搭載水平對臥
+    （Boxer）引擎，提供四缸渦輪增輪或更強勁的六缸自然進氣動力選項，配備保時捷跑車調校底盤與PDK變速箱，提供從入門的300匹馬力
+    到頂級Spyder RS的500匹馬力等不同性能版本，滿足不同層次的跑車需求。
+    </p>
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== Spyder RS ========== -->
+<div class="parallax" style="background-image:url('image/03.png')" id="s13">
+  <div class="title-box fade-title">
+    <h1>718 Spyder RS</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+    <p>
+      保時捷 718 Spyder RS 是一款極致輕量化的高性能敞篷跑車，搭載源自 911 GT3 的 4.0 升水平對臥六缸自然進氣引擎，可輸出
+     500 匹馬力，搭配 7速PDK 變速箱，0-100 km/h 加速僅需 3.4 秒。它採用獨特的輕量化手動軟頂篷、標配跑車排氣系統、跑車化底盤
+     與空氣力學設計，提供純粹的駕馭樂趣，是 718 車系中的頂級性能版本。
+    </p>
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== GTS RS / GT4 RS ========== -->
+<div class="parallax" style="background-image:url('image/04.png')" id="s14">
+  <div class="title-box fade-title">
+    <h1>718 Cayman GTS RS</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+    <p>
+      保時捷 718 Cayman GTS RS (GT4 RS) 是一款極致性能導向的賽道機器，搭載源自 911 GT3 4.0 升水平對臥六缸自然進氣引擎
+     (500 PS)，配備 7速 PDK 變速箱，以輕量化（鎂合金輪圈可減近 10kg）、極致空氣力學、PASM跑車底盤 (降20mm)、與賽道調校，
+     提供無與倫比的操控與純粹駕駛樂趣，是 718 Cayman 家族中最強悍的街道合法賽車，實現了賽道與街道的完美平衡。
+    </p>
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== 品牌介紹 ========== -->
+<div class="parallax" style="background-image:url('image/05.png')" id="brand">
+  <div class="title-box fade-title">
+    <h1>Porsche 品牌介紹</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+    <p>
+      保時捷（Porsche）是源自德國的豪華跑車製造商，由斐迪南·保時捷 (Ferdinand Porsche)於1931年創立，以其經典的後置引擎跑車
+    （如356、911）、卓越的性能、精準操控和賽車傳統聞名，現已擴展至豪華SUV（Cayenne、Macan）和電動車（Taycan）等領域，是全球
+    最具影響力的跑車品牌之一
+    </p>
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== 服務 ========== -->
+<div class="parallax" style="background-image:url('image/06.png')" id="service">
+  <div class="title-box fade-title">
+    <h1>保時捷竭誠為您服務</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+    <p>
+     您只需要享受駕駛保時捷的樂趣，在保養方面，無需獨自進行。因為我們會讓您後顧無憂。我們會竭盡全力讓您盡享擁有保時捷的樂趣。
+    剩下的交給我們。
+我們為您提供服務和保養套餐，讓您的保時捷始終保持最佳狀態。我們可以與您面對面，由經驗豐富的客戶顧問與您對話，探討您的需求。此外
+，我們的修理服務還會盡快讓您的保時捷恢復如新狀態
+    </p>
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== 經銷商 ========== -->
+<div class="parallax" style="background-image:url('image/08.png')" id="dealer">
+  <div class="title-box fade-title">
+    <h1>尋找經銷商</h1>
+  </div>
+</div>
+
+<section>
+  <div class="section-content">
+
+    <h2>台北保時捷中心</h2>
+    <p>114 臺北市內湖區石潭路 88 號</p>
+
+    <h2>台中保時捷中心</h2>
+    <p>402 臺中市南區文心南路 545 號</p>
+
+    <h2>高雄保時捷中心</h2>
+    <p>811 高雄市楠梓區加昌路 639 號</p>
+
+    <hr>
+  </div>
+</section>
+
+
+
+<!-- ========== 建議回饋 ========== -->
+<section id="feedback">
+  <div class="section-content">
+    <h2>留言回饋</h2>
+
+    <textarea rows="7" class="form-control">歡迎留下您的建議...</textarea>
+
+    <button class="btn mt-3 px-4">送出</button>
+  </div>
+</section>
+
+
+
+<!-- 標題淡入動畫觸發 -->
+<script>
+  const titles = document.querySelectorAll('.fade-title');
+
+  const onScroll = () => {
+    const trigger = window.innerHeight * 0.8;
+    titles.forEach(t=>{
+      const top = t.getBoundingClientRect().top;
+      if(top < trigger) t.classList.add("show");
+    });
+  };
+
+  window.addEventListener("scroll", onScroll);
+  onScroll();
+</script>
+
+</body>
+</html>
